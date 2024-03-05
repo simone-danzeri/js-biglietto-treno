@@ -18,9 +18,13 @@ let underageDiscount;
 let elderlyDiscount;
 
 if (userAge < 18) {
+
     underageDiscount = ticketPrice * 20 /100;
+
 } else if (userAge > 65) {
+
     elderlyDiscount = ticketPrice * 40 / 100;
+    
 }
 
 console.log(underageDiscount);
